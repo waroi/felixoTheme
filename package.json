@@ -1,0 +1,21 @@
+{
+    "name": "felixo",
+    "displayName": "Felixo",
+    "description": "Felixo Theme Package",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.62.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Felixo",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Felixo-color-theme.json"
+            }
+        ]
+    }
+}
