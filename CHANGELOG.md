@@ -1,7 +1,5 @@
-# Change Log
+# CHANGELOG
 
-Felixo VSCode Theme Package
+## 1.0.0 | 2021.12.01
 
-## [0.0.1]
-
-- Initial release
+First release. Woop!

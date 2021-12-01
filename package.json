@@ -1,46 +1,64 @@
 {
-  "name": "felixo",
-  "displayName": "Felixo",
-  "description": "Felixo Theme Package",
-  "icon": "",
-  "publisher": "waroi",
-  "author": {
-    "name": "Varol Maksutoğlu",
-    "url": "https://www.linkedin.com/in/waroi/",
-    "email": "varol.maksutoglu@felixo.com"
-  },
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.62.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/waroi/felixoTheme"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Felixo Default",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Felixo-green-dark-theme.json"
-      },
-      {
-        "label": "Felixo Orange",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Felixo-orange-dark-theme.json"
-      }
-    ]
-  },
-  "keywords": [
-    "dark theme",
-    "vscode theme",
-    "orange theme",
-    "green theme",
-    "felixo theme",
-    "felixo",
-    "theme"
-  ]
+    "name": "felixo",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.13.0"
+    },
+    "publisher": "waroi",
+    "displayName": "Felixo",
+    "description": "Felixo Color Theme",
+    "author": {
+        "name": "Varol Maksutoğlu",
+        "url": "https://www.linkedin.com/in/waroi/",
+        "email": "varol.maksutoglu@felixo.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/waroi/felixoTheme"
+    },
+    "license": "GNU/GLP",
+    "icon": "icon.png",
+    "keywords": [
+        "felixo",
+        "theme",
+        "dark",
+        "green"
+    ],
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Felixo Green Contrast",
+                "uiTheme": "vs-dark",
+                "path": "./themes/felixo-green-contrast.json"
+            },
+            {
+                "label": "Felixo Green",
+                "uiTheme": "vs-dark",
+                "path": "./themes/felixo-green.json"
+            },
+            {
+                "label": "Felixo Green",
+                "uiTheme": "vs",
+                "path": "./themes/felixo-green-light.json"
+            },
+            {
+                "label": "Felixo Orange Contrast",
+                "uiTheme": "vs-dark",
+                "path": "./themes/felixo-orange-contrast.json"
+            },
+            {
+                "label": "Felixo Orange",
+                "uiTheme": "vs-dark",
+                "path": "./themes/felixo-orange.json"
+            },
+            {
+                "label": "Felixo Orange",
+                "uiTheme": "vs",
+                "path": "./themes/felixo-orange-light.json"
+            }
+        ]
+    }
 }

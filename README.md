@@ -6,6 +6,6 @@
 
 ### Go to Felixo
 
-- [Europe's fastest growing crypto exchange.](https://www.felixo.com)
+-   [Europe's fastest growing crypto exchange.](https://www.felixo.com)
 
 **Enjoy!**
